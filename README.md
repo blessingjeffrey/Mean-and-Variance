@@ -1,14 +1,24 @@
-                                                               Name: POZHILAN V D
-                                                               REG NO: 212223240118
-# EX-2:Mean and variance of a discrete  distribution
+## Name: Blessing jeffrey Y.L
+## Reg.no: 212223220014
+
+#  Mean and variance of a discrete  distribution
+
+
 # Aim : 
+
 To find mean and variance of arrival of objects from the feeder using probability distribution
+
+
 # Software required :  
+
 Python and Visual components tool
+
 # Theory:
+
 The expectation or the mean of a discrete random variable is a weighted average of all possible
 values of the random variable. The weights are the probabilities associated with the corresponding values. 
 It is calculated as,
+
 ![image](https://user-images.githubusercontent.com/103921593/192938463-e34177f4-f188-48a0-bda2-8f6d1d660ed2.png)
 
 The variance of a random variable shows the variability or the scatterings of the random variables.
@@ -41,13 +51,11 @@ It shows the distance of a random variable from its mean. It is calcualted as
 ![image](https://user-images.githubusercontent.com/103921593/229993174-5b67e57e-3e01-4ac4-9f83-410a932b22bf.png)
 
 # Program :
+```python
 import numpy as np
-```
 L=[int(i) for i in input().split()]
-N=len(L)
-M=max(L) 
-x=list()
-f=list()
+N=len(L); M=max(L) 
+x=list();f=list()
 for i in range (M+1):
     c = 0
     for j in range(N):
@@ -67,11 +75,9 @@ print("The Mean arrival rate is %.3f "%mean)
 print("The Variance of arrival from feeder is %.3f "%var) 
 print("The Standard deviation of arrival from feeder is %.3F "%SD)
 ```
-
-
 # Output : 
-![image](https://github.com/POZHILANVD/Mean-and-Variance/assets/144870498/9e0c46cc-d49c-4678-9139-9d3705511abf)
+![image](https://github.com/22009071/Mean-and-Variance/assets/120206067/6630d8b9-e278-4051-a2c4-9fa91c1e6d44)
+
 
 # Results :
 The mean and variance of arrivals of objects from feeder using probability distribution are calculated.
-
